@@ -1,0 +1,292 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Muhammad Rizal Firmansyah - IT Professional galeri">
+    <title>Muhammad Rizal Firmansyah | Portofolio</title>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet">
+    <!-- Font Awesome --><link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" rel="stylesheet">    
+    <link rel="stylesheet" href="style.css">
+    <link href="logo1.png" rel="icon">
+    <link rel="icon" href="favicon.ico" type="image/x-icon">
+</head>
+<body>
+    <header>
+        <div class="container">
+            <div class="logo">
+                <h1>Muhammad Rizal Firmansyah</h1>
+                <p>Informatics Engineering</p>
+            </div>
+            <nav>
+                <ul>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#experience">Experience</a></li>
+                    <li><a href="#galeri-carousel">Gallery</a></li>
+                    <li><a href="#education">Education</a></li>
+                    <li><a href="#skills">Skills</a></li>
+                    <li><a href="#footer">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <section id="about">
+        <div class="container">
+            <h2>About Me</h2>
+            <p>I am a fresh graduate from the Informatics Engineering Department, Palangka Raya University, with a GPA
+                of 3.75 on a 4.00 scale, and I am highly interested in pursuing a career in the IT zeld. During my studies, I was actively involved in student organizations, including the Information Engineering Student Association and
+                the Student Executive Board of the Faculty of Engineering, Palangka Raya University. I also served as a lab
+                assistant for the Object-Oriented Programming course and completed an internship at PT PLN Icon Plus
+                Service Unit, Central Kalimantan. These experiences have helped me develop both soft skills and hard skills,
+                which I believe will be valuable in securing a role that offers opportunities for growth and professional
+                development. </p>
+        </div>
+    </section>
+
+    <section id="experience">
+        <div class="container">
+            <h2>Experience</h2>
+            <div class="experience-list" id="experience-list">
+                <!-- Pengalaman Kerja akan dimasukkan di sini melalui JavaScript -->
+            </div>
+            <div class="pagination" id="pagination">
+                <!-- Tombol pagination akan muncul di sini -->
+            </div>
+        </div>
+    </section>    
+
+    <section id="galeri-carousel">
+        <div class="carousel-container">
+            <h2>Projects & Experiences Gallery</h2>
+            <div class="carousel">
+                <!-- Item 1 -->
+                <div class="carousel-item active">
+                    <img src="magang.jpeg" alt="Project Photo 1" class="carousel-photo">
+                    <div class="carousel-caption">
+                        <h3>Internship Experience at PLN Icon Plus</h3>
+                        <p>Installing and activating devices on PLN electricity poles.</p>
+                    </div>
+                </div>
+                <!-- Item 2 -->
+                <div class="carousel-item active">
+                    <img src="nakayani.png" alt="Project Photo 2" class="carousel-photo">
+                    <div class="carousel-caption">
+                        <h3>Nakayaanni Hotel Website Project</h3>
+                        <p>Create an individual website to fulfill the project assignment for the Web and Mobile Programming 1 course by applying HTML, CSS, Bootstrap, JavaScript, PHP and MySQL Database</p>
+                    </div>
+                </div>
+                <!-- Item 3 -->
+                <div class="carousel-item">
+                    <img src="ratuayu.png" alt="Project Photo 3" class="carousel-photo">
+                    <div class="carousel-caption">
+                        <h3>Ratu Ayu Website Project</h3>
+                        <p>Create a website in groups to fulfill the Database Administration course project assignment by applying HTML, CSS, Bootstrap, JavaScript, PHP and MySQL Database.</p>
+                    </div>
+                </div>
+                <!-- Item 4 -->
+                <div class="carousel-item">
+                    <img src="asprak.jpg" alt="Project Photo 4" class="carousel-photo">
+                    <div class="carousel-caption">
+                        <h3>Lab Assistant Experience in Object Oriented Programming courses</h3>
+                        <p>Become a lab assistant using teaching materials based on teaching modules that teach about using Alice 3 applications, Greenfoot applications and implementing OOP using the Java language.</p>
+                    </div>
+                </div>
+                <!-- Tambahkan item lainnya sesuai kebutuhan -->
+            </div>
+            <!-- Navigasi Carousel -->
+            <button class="carousel-control prev" onclick="prevSlide()">&#10094;</button>
+            <button class="carousel-control next" onclick="nextSlide()">&#10095;</button>
+        </div>
+    </section>    
+    
+    <section id="education">
+        <div class="container">
+            <h2>Education</h2>
+            <div class="education-list">
+                <!-- Pendidikan Universitas Palangka Raya -->
+                <div class="education-item">
+                    <h3>Universitas Palangka Raya</h3>
+                    <p class="degree">Bachelor of Informatics Engineering</p>
+                    <p class="duration">August 2020 - August 2024</p>
+                    <p class="gpa">GPA: 3.75/4.00</p>
+                </div>
+    
+                <!-- Pendidikan SMK Negeri 2 Sampit -->
+                <div class="education-item">
+                    <h3>SMK Negeri 2 Sampit</h3>
+                    <p class="degree">Technical Computer and Network Engineering (TKJ)</p>
+                    <p class="duration">July 2017 - June 2020</p>
+                </div>
+            </div>
+        </div>
+    </section>    
+
+    <section id="skills">
+        <div class="container">
+            <h2>Skills</h2>
+            <div class="skills-list">
+                <!-- Organizational Skills -->
+                <div class="skill-item">
+                    <i class="fas fa-users"></i>
+                    <p>Organizational Ability</p>
+                </div>
+                <div class="skill-item">
+                    <i class="fas fa-users-cog"></i>
+                    <p>Team Leadership</p>
+                </div>
+                <div class="skill-item">
+                    <i class="fas fa-users"></i>
+                    <p>Teamwork</p>
+                </div>
+                <div class="skill-item">
+                    <i class="fas fa-tasks"></i>
+                    <p>Project Management</p>
+                </div>
+                <div class="skill-item">
+                    <i class="fas fa-clock"></i>
+                    <p>Time Management</p>
+                </div>
+                
+                <!-- IT Skills -->
+                <div class="skill-item">
+                    <i class="fas fa-database"></i>
+                    <p>Databases</p>
+                </div>
+                <div class="skill-item">
+                    <i class="fas fa-database"></i>
+                    <p>Relational Databases</p>
+                </div>
+                <div class="skill-item">
+                    <i class="fas fa-database"></i>
+                    <p>Database Administration</p>
+                </div>
+                <div class="skill-item">
+                    <i class="fas fa-database"></i>
+                    <p>MySQL</p>
+                </div>
+                <div class="skill-item">
+                    <i class="fas fa-chart-line"></i>
+                    <p>Data Analysis</p>
+                </div>
+                <div class="skill-item">
+                    <i class="fas fa-cogs"></i>
+                    <p>Problem Solving</p>
+                </div>
+                <div class="skill-item">
+                    <i class="fas fa-tasks"></i>
+                    <p>Project Planning</p>
+                </div>
+                
+                <!-- Networking Skills -->
+                <div class="skill-item">
+                    <i class="fas fa-laptop-network"></i>
+                    <p>Computer Hardware</p>
+                </div>
+                <div class="skill-item">
+                    <i class="fas fa-network-wired"></i>
+                    <p>Jaringan Komputer</p>
+                </div>
+                <div class="skill-item">
+                    <i class="fab fa-cisco"></i>
+                    <p>Cisco Routers</p>
+                </div>
+                <div class="skill-item">
+                    <i class="fas fa-plug"></i>
+                    <p>LAN Switching</p>
+                </div>
+                <div class="skill-item">
+                    <i class="fas fa-tools"></i>
+                    <p>Network Troubleshooting</p>
+                </div>
+                <div class="skill-item">
+                    <i class="fas fa-network-wired"></i>
+                    <p>Networking</p>
+                </div>
+                <div class="skill-item">
+                    <i class="fas fa-server"></i>
+                    <p>Big Data</p>
+                </div>
+    
+                <!-- Web Development Skills -->
+                <div class="skill-item">
+                    <i class="fab fa-html5"></i>
+                    <p>HTML</p>
+                </div>
+                <div class="skill-item">
+                    <i class="fab fa-css3-alt"></i>
+                    <p>Cascading Style Sheets (CSS)</p>
+                </div>
+                <div class="skill-item">
+                    <i class="fab fa-bootstrap"></i>
+                    <p>Bootstrap</p>
+                </div>
+                <div class="skill-item">
+                    <i class="fab fa-sass"></i>
+                    <p>SASS</p>
+                </div>
+                <div class="skill-item">
+                    <i class="fab fa-js"></i>
+                    <p>JavaScript</p>
+                </div>                
+                <div class="skill-item">
+                    <i class="fab fa-php"></i>
+                    <p>PHP</p>
+                </div>
+    
+                <!-- Miscellaneous Skills -->
+                <div class="skill-item">
+                    <i class="fas fa-router"></i>
+                    <p>Mikrotik</p>
+                </div>
+                <div class="skill-item">
+                    <i class="fa-solid fa-file-word"></i>
+                    <p>Microsoft Excel</p>
+                </div>
+                <div class="skill-item">
+                    <i class="fa-solid fa-file-word"></i>
+                    <p>Microsoft Word</p>
+                </div>
+                <div class="skill-item">
+                    <i class="fa-solid fa-file-powerpoint"></i>
+                    <p>Microsoft PowerPoint</p>
+                </div>
+                <div class="skill-item">
+                    <i class="fas fa-sitemap"></i>
+                    <p>Visio</p>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+    <footer id="footer">
+        <div class="container">
+            <h2>Contact Me</h2>
+            <p>Feel free to reach out to me through any of the platforms below.</p>
+            <div class="contact-icons">
+                <a href="https://www.linkedin.com/in/muhammad-rizal-zrmansyah" target="_blank" class="contact-icon linkedin">
+                    <i class="fab fa-linkedin"></i>
+                </a>
+                <a href="https://wa.me/your-phone-number" target="_blank" class="contact-icon whatsapp">
+                    <i class="fab fa-whatsapp"></i>
+                </a>
+                <a href="mailto:rizalzrman433@gmail.com" target="_blank" class="contact-icon email">
+                    <i class="fas fa-envelope"></i>
+                </a>
+                <a href="https://github.com/rizalrmansyah03" target="_blank" class="contact-icon github">
+                    <i class="fab fa-github"></i>
+                </a>
+                <a href="https://instagram.com/rizalfirman0803" target="_blank" class="contact-icon github">
+                    <i class="fab fa-instagram"></i>
+                </a>
+            </div>
+            <p class="footer-text">© 2024 Muhammad Rizal Firmansyah. All rights reserved.</p>
+        </div>
+    </footer>    
+
+    <button onclick="scrollToTop()" id="scrollUpBtn" title="Go to top">↑</button>
+
+    <script src="https://kit.fontawesome.com/a076d05399.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
